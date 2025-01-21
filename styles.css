@@ -1,0 +1,76 @@
+body {
+	background: black;
+	color: #333;
+}
+
+.postcard {
+	background: white;
+	background-image: url(https://static.vecteezy.com/system/resources/previews/002/510/489/non_2x/holiday-travel-background-free-photo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.postcard-header {
+	display: flex;
+	align-items: center;
+}
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.postcard-header h1 {
+	margin: 0;
+	height: 60px;
+	width: 400px;
+	padding-top: 20px;
+	padding-left: 5px;
+	color: black;
+	text-decoration: underline;
+}
+
+.postcard-body {
+	display: flex;
+	align-items: center;
+}
+.body-left p:first-of-type {
+	margin-top: 0;
+}
+.body-left {
+	padding: 5px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	color: black;
+	text-shadow: #333;
+}
+.body-right {
+	padding: 5px;
+}
+input {
+	border: 1px solid #ccc;
+	border-bottom: grey;
+	padding: auto;
+	color: darkslategrey;
+}
+
+p {
+	font-size: medium;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background: rgb(232, 236, 5);
+	padding: 5px;
+	margin-top: -40px;
+	font-family: fantasy;
+	color: darkslategrey;
+}
+button:hover {
+	color: black;
+}
